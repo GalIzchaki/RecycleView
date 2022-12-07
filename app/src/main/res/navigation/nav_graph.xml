@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/f2">
+
+    <fragment
+        android:id="@+id/main"
+        android:name="com.example.recycleviewgal.main"
+        android:label="main" >
+        <action
+            android:id="@+id/action_main_to_f5"
+            app:destination="@id/f5" />
+        <action
+            android:id="@+id/action_main_to_f6"
+            app:destination="@id/f6" />
+        <action
+            android:id="@+id/action_main_to_f4"
+            app:destination="@id/f4" />
+        <action
+            android:id="@+id/action_main_to_f3"
+            app:destination="@id/f3" />
+        <action
+            android:id="@+id/action_main_to_f2"
+            app:destination="@id/f2" />
+    </fragment>
+    <fragment
+        android:id="@+id/f3"
+        android:name="com.example.recycleviewgal.F3"
+        android:label="F3" />
+    <fragment
+        android:id="@+id/f4"
+        android:name="com.example.recycleviewgal.F4"
+        android:label="F4" />
+    <fragment
+        android:id="@+id/f5"
+        android:name="com.example.recycleviewgal.F5"
+        android:label="F5" />
+    <fragment
+        android:id="@+id/f6"
+        android:name="com.example.recycleviewgal.F6"
+        android:label="F6" />
+    <fragment
+        android:id="@+id/f2"
+        android:name="com.example.recycleviewgal.F2"
+        android:label="fragment_f5"
+        tools:layout="@layout/fragment_f5" />
+</navigation>

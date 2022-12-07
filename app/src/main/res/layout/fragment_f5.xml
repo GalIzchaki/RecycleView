@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".F2">
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_weight="2.5"
+        android:text="Go Back" />
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewSecondFrag"
+            android:layout_width="264dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/francin" />
+
+        <TextView
+            android:id="@+id/textViewSecondFrag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Francine is an anthropomorphic monkey with a brown complexion. She has medium-length brown hair with a bob hairstyle, which she puts hairclips on to pin it up (her hairclips are red in the books, but yellow in the cartoon).  She is usually seen wearing a red shirt, blue jeans, red and white sneakers, white socks and doesn’t wear any shirt underneath like some of her friends.  Her sleepwear is a cream-colored pajama top with a big lime green #1 on the front and lime green pajama pants with stripes." />
+    </LinearLayout>
+
+</LinearLayout>
